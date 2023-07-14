@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./EMI.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>EMI Calculator</h1>
+    <form>
+      <label for="principal">Principal Amount:</label>
+      <input type="number" id="principal" required>
+      
+      <label for="interest">Interest Rate:</label>
+      <input type="number" id="interest" required>
+      
+      <label for="tenure">Loan Tenure (in months):</label>
+      <input type="number" id="tenure" required>
+      
+      <button type="button" onclick="calculateEMI()">Calculate EMI</button>
+    </form>
+    
+    <div id="result"></div>
+    
+
+    <script src="./EMI.js"></script>
+</body>
+</html>
